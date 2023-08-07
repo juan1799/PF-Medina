@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: $font_tertiary;
+  color: $color-texto1;
+  font-size: 1.1rem;
+
+  &::selection {
+    background-color: $color-secundario;
+    color: $color-fondo;
+  }
+}

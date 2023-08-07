@@ -1,0 +1,38 @@
+.pie {
+  background-color: $color-fondo;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5rem;
+
+  .buttons {
+    display: flex;
+
+    a {
+      font-size: 28px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      color: $color-texto1;
+      background: $color-caja;
+      border: 2px solid $color-secundario;
+      border-radius: 50%;
+      transition: all 0.2s ease-in-out;
+      margin: 30px;
+      text-decoration: none;
+
+      &:hover {
+        transform: scale(1.4);
+      }
+    }
+  }
+
+  p {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+}
